@@ -24,4 +24,4 @@ Swansea-Flood-And-Deprivation-Analysis/
 | Flood Map: Rivers and Sea | DataMapWales (NRW)        | https://datamap.gov.wales/layergroups/inspire-nrw:FloodMapforPlanningFloodZones2and3                                      |
 
 ## Requirements
-pip install geopandas pandas matplotlib scipy openpyxl
+pip install geopandas pandas matplotlib scipy
