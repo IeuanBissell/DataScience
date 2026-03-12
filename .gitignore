@@ -1,0 +1,11 @@
+# Large data files
+data/*.json
+data/*.shp
+data/*.gpkg
+data/*.geojson
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.cpg
+data/*.xml
+data/*.xlsx
