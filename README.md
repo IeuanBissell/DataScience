@@ -7,14 +7,13 @@ risk exposure, combining WIMD 2019 with NRW flood zone polygons at LSOA level.
 > Do more deprived areas in Swansea face greater flood risk exposure?
 
 ## Project Structure
-```
-Swansea-Flood-And-Deprivation-Analysis/
-├── data/                  # Raw data files (not tracked by git)
-├── notebooks/             # Analysis notebook
-├── outputs/               # Generated maps and charts
-├── .gitignore
-└── README.md
-```
+
+    Swansea-Flood-And-Deprivation-Analysis/
+    ├── data/                  # Raw data files (not tracked by git)
+    ├── notebooks/             # Analysis notebook
+    ├── outputs/               # Generated maps and charts
+    ├── .gitignore
+    └── README.md
 
 ## Data Sources
 | Dataset                   | Source                    | Link                                                                                                                      |
@@ -24,4 +23,9 @@ Swansea-Flood-And-Deprivation-Analysis/
 | Flood Map: Rivers and Sea | DataMapWales (NRW)        | https://datamap.gov.wales/layergroups/inspire-nrw:FloodMapforPlanningFloodZones2and3                                      |
 
 ## Requirements
-pip install geopandas pandas matplotlib scipy
+pip install geopandas pandas matplotlib scipy openpyxl
+
+## How to Run
+1. Download data files from the links above into the `data/` folder
+2. Open `notebooks/flood_deprivation_analysis.ipynb`
+3. Run all cells in order
